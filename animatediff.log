@@ -1,0 +1,79 @@
+2025-03-25 16:44:08,377 - backend.config - INFO - Config initialized with base_dir: d:\animate diff x\animatediff-gui
+2025-03-25 16:44:08,378 - backend.config - INFO - Models directory: d:\animate diff x\animatediff-gui\models
+2025-03-25 16:44:08,378 - backend.config - INFO - Output directory: d:\animate diff x\animatediff-gui\outputs
+2025-03-25 16:44:08,378 - backend.config - INFO - CPU optimization: quantization=int8, threads=16
+2025-03-25 16:44:08,379 - backend.config - INFO - Uncensored mode: True
+2025-03-25 16:44:08,383 - __main__ - INFO - Initializing model manager...
+2025-03-25 16:44:08,384 - backend.models - INFO - Using device: cpu
+2025-03-25 16:44:08,389 - backend.models - INFO - Set torch threads to 16
+2025-03-25 16:44:08,390 - __main__ - INFO - Initializing preview manager...
+2025-03-25 16:44:08,390 - __main__ - INFO - Initializing AnimateDiff pipeline...
+2025-03-25 16:44:08,391 - backend.pipeline - INFO - Using device: cpu
+2025-03-25 16:44:08,391 - __main__ - INFO - Initializing preview server...
+2025-03-25 16:44:08,499 - __main__ - INFO - All components initialized successfully
+2025-03-25 16:44:08,500 - __main__ - INFO - Starting AnimateDiff GUI on 0.0.0.0:7860
+2025-03-25 16:44:08,500 - backend.live_preview_server - INFO - Starting LivePreviewServer on 0.0.0.0:7860
+2025-03-25 16:44:09,764 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7860
+ * Running on http://192.168.1.11:7860
+2025-03-25 16:44:09,764 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 16:44:13,284 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:44:13] "GET / HTTP/1.1" 200 -
+2025-03-25 16:44:13,365 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:44:13] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-25 16:44:13,400 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:44:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-25 16:44:13,448 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:44:13] "GET /socket.io/?EIO=4&transport=polling&t=PNFiJfv HTTP/1.1" 200 -
+2025-03-25 16:44:13,450 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:44:13] "GET /api/models HTTP/1.1" 200 -
+2025-03-25 16:44:13,461 - backend.live_preview_server - INFO - Client connected: WOYoLkVPJg4JpyIfAAAB
+2025-03-25 16:44:13,462 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:44:13] "POST /socket.io/?EIO=4&transport=polling&t=PNFiJgB&sid=B1dHIsdpGD-ewoUwAAAA HTTP/1.1" 200 -
+2025-03-25 16:44:13,473 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:44:13] "GET /socket.io/?EIO=4&transport=polling&t=PNFiJgC&sid=B1dHIsdpGD-ewoUwAAAA HTTP/1.1" 200 -
+2025-03-25 16:50:37,907 - backend.config - INFO - Config initialized with base_dir: d:\animate diff x\animatediff-gui
+2025-03-25 16:50:37,907 - backend.config - INFO - Models directory: d:\animate diff x\animatediff-gui\models
+2025-03-25 16:50:37,907 - backend.config - INFO - Output directory: d:\animate diff x\animatediff-gui\outputs
+2025-03-25 16:50:37,908 - backend.config - INFO - CPU optimization: quantization=int8, threads=16
+2025-03-25 16:50:37,908 - backend.config - INFO - Uncensored mode: True
+2025-03-25 16:50:37,912 - __main__ - INFO - Initializing model manager...
+2025-03-25 16:50:37,913 - backend.models - INFO - Using device: cpu
+2025-03-25 16:50:37,916 - backend.models - INFO - Set torch threads to 16
+2025-03-25 16:50:37,916 - __main__ - INFO - Initializing preview manager...
+2025-03-25 16:50:37,916 - __main__ - INFO - Initializing AnimateDiff pipeline...
+2025-03-25 16:50:37,917 - backend.pipeline - INFO - Using device: cpu
+2025-03-25 16:50:37,917 - __main__ - INFO - Initializing preview server...
+2025-03-25 16:50:37,921 - __main__ - INFO - All components initialized successfully
+2025-03-25 16:50:37,921 - __main__ - INFO - Starting AnimateDiff GUI on 0.0.0.0:7860
+2025-03-25 16:50:37,922 - backend.live_preview_server - INFO - Starting LivePreviewServer on 0.0.0.0:7860
+2025-03-25 16:50:39,173 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7860
+ * Running on http://192.168.1.11:7860
+2025-03-25 16:50:39,173 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 16:50:39,304 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:50:39] "GET /socket.io/?EIO=4&transport=polling&t=PNFjnt1 HTTP/1.1" 200 -
+2025-03-25 16:50:39,312 - backend.live_preview_server - INFO - Client connected: Akp5ZlUHUvWrykVTAAAB
+2025-03-25 16:50:39,313 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:50:39] "POST /socket.io/?EIO=4&transport=polling&t=PNFjntB&sid=voOgdJ9IhgyjNiE8AAAA HTTP/1.1" 200 -
+2025-03-25 16:50:39,319 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:50:39] "GET /socket.io/?EIO=4&transport=polling&t=PNFjntC&sid=voOgdJ9IhgyjNiE8AAAA HTTP/1.1" 200 -
+2025-03-25 16:50:41,264 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:50:41] "GET / HTTP/1.1" 200 -
+2025-03-25 16:50:41,316 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:50:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-25 16:50:41,319 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:50:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-25 16:50:41,477 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:50:41] "GET /socket.io/?EIO=4&transport=polling&t=PNFjoO- HTTP/1.1" 200 -
+2025-03-25 16:50:41,479 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:50:41] "GET /api/models HTTP/1.1" 200 -
+2025-03-25 16:50:41,483 - backend.live_preview_server - INFO - Client connected: NH8tk0SfCLYUbC1eAAAD
+2025-03-25 16:50:41,484 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:50:41] "POST /socket.io/?EIO=4&transport=polling&t=PNFjoP8&sid=06-PUInoxvSj1cxnAAAC HTTP/1.1" 200 -
+2025-03-25 16:50:41,490 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:50:41] "GET /socket.io/?EIO=4&transport=polling&t=PNFjoP9&sid=06-PUInoxvSj1cxnAAAC HTTP/1.1" 200 -
+2025-03-25 16:51:02,913 - backend.live_preview - INFO - Starting generation d736e623-a371-44b6-b70c-468b49d32798 with 25 steps
+2025-03-25 16:51:02,915 - backend.pipeline - INFO - Generating video with seed: 2868458848
+2025-03-25 16:51:03,139 - backend.models - INFO - Loading SD model: runwayml/stable-diffusion-v1-5
+2025-03-25 16:51:04,620 - backend.optimization - INFO - Optimizing model with int8 quantization
+2025-03-25 16:51:04,662 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-03-25 16:51:04,711 - backend.optimization - INFO - Quantizing UNet to 8-bit
+2025-03-25 16:51:04,711 - backend.optimization - ERROR - Error optimizing model: module 'bitsandbytes.nn.modules' has no attribute 'Params8bit'
+2025-03-25 16:51:04,712 - backend.optimization - WARNING - Using unoptimized model
+2025-03-25 16:51:04,731 - backend.models - INFO - Loading motion module: animatediffV3Models_motionModuleFP32.safetensors
+2025-03-25 16:51:10,197 - backend.pipeline - INFO - Safety checker disabled for uncensored mode
+2025-03-25 16:51:10,198 - backend.pipeline - INFO - Generating 16 frames with 25 steps
+2025-03-25 16:54:37,455 - backend.pipeline - INFO - Video saved to d:\animate diff x\animatediff-gui\outputs\animatediff_d3e65149.mp4
+2025-03-25 16:54:37,544 - backend.optimization - INFO - Memory optimization performed
+2025-03-25 16:54:37,545 - backend.live_preview - INFO - Generation process ended
+2025-03-25 16:55:24,175 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:55:24] "[35m[1mGET /outputs/animatediff_d3e65149.mp4 HTTP/1.1[0m" 206 -
+2025-03-25 16:55:45,555 - backend.live_preview_server - INFO - Client disconnected: NH8tk0SfCLYUbC1eAAAD
+2025-03-25 16:55:45,556 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:55:45] "GET /socket.io/?EIO=4&transport=websocket&sid=06-PUInoxvSj1cxnAAAC HTTP/1.1" 200 -
+2025-03-25 16:55:48,747 - backend.live_preview_server - INFO - Client disconnected: Akp5ZlUHUvWrykVTAAAB
+2025-03-25 16:55:48,748 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:55:48] "GET /socket.io/?EIO=4&transport=websocket&sid=voOgdJ9IhgyjNiE8AAAA HTTP/1.1" 200 -

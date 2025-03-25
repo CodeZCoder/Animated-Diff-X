@@ -14,7 +14,7 @@ An advanced AnimateDiff GUI interface with Python backend and HTML/JS frontend. 
 ## Installation
 
 1. Unzip the package to a directory of your choice
-2. Install the required dependencies: using python 3.11
+2. Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -25,12 +25,6 @@ pip install -r requirements.txt
 ```bash
 python setup.py
 ```
-
-Alternative Manual Installation
-If you still encounter issues, you can try installing the dependencies manually in this specific order:
-pip install huggingface_hub==0.16.4
-pip install diffusers==0.11.1
-pip install -r requirements_fixed.txt
 
 ## Usage
 
