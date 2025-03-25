@@ -1,3 +1,0 @@
-"""
-AnimateDiff GUI Backend
-"""
