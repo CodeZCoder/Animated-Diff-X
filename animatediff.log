@@ -77,3 +77,398 @@
 2025-03-25 16:55:45,556 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:55:45] "GET /socket.io/?EIO=4&transport=websocket&sid=06-PUInoxvSj1cxnAAAC HTTP/1.1" 200 -
 2025-03-25 16:55:48,747 - backend.live_preview_server - INFO - Client disconnected: Akp5ZlUHUvWrykVTAAAB
 2025-03-25 16:55:48,748 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 16:55:48] "GET /socket.io/?EIO=4&transport=websocket&sid=voOgdJ9IhgyjNiE8AAAA HTTP/1.1" 200 -
+2025-03-25 20:29:48,264 - backend.config - INFO - Config initialized with base_dir: d:\animate diff x\animatediff-gui
+2025-03-25 20:29:48,265 - backend.config - INFO - Models directory: d:\animate diff x\animatediff-gui\models
+2025-03-25 20:29:48,265 - backend.config - INFO - Output directory: d:\animate diff x\animatediff-gui\outputs
+2025-03-25 20:29:48,265 - backend.config - INFO - CPU optimization: quantization=int8, threads=16
+2025-03-25 20:29:48,265 - backend.config - INFO - Uncensored mode: True
+2025-03-25 20:29:48,269 - __main__ - INFO - Initializing model manager...
+2025-03-25 20:29:48,269 - backend.models - INFO - Using device: cpu
+2025-03-25 20:29:48,273 - backend.models - INFO - Set torch threads to 16
+2025-03-25 20:29:48,273 - __main__ - INFO - Initializing preview manager...
+2025-03-25 20:29:48,273 - __main__ - INFO - Initializing AnimateDiff pipeline...
+2025-03-25 20:29:48,275 - backend.pipeline - INFO - Using device: cpu
+2025-03-25 20:29:48,277 - __main__ - INFO - Initializing preview server...
+2025-03-25 20:29:48,298 - __main__ - INFO - All components initialized successfully
+2025-03-25 20:29:48,298 - __main__ - INFO - Starting AnimateDiff GUI on 0.0.0.0:7860
+2025-03-25 20:29:48,299 - backend.live_preview_server - INFO - Starting LivePreviewServer on 0.0.0.0:7860
+2025-03-25 20:29:49,556 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7860
+ * Running on http://192.168.1.11:7860
+2025-03-25 20:29:49,557 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 20:29:58,041 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:29:58] "GET / HTTP/1.1" 200 -
+2025-03-25 20:29:58,096 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:29:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-25 20:29:58,109 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:29:58] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-03-25 20:29:58,239 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:29:58] "GET /socket.io/?EIO=4&transport=polling&t=PNGV-VM HTTP/1.1" 200 -
+2025-03-25 20:29:58,240 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:29:58] "GET /api/models HTTP/1.1" 200 -
+2025-03-25 20:29:58,247 - backend.live_preview_server - INFO - Client connected: Dk613BJllVF8LbdBAAAB
+2025-03-25 20:29:58,249 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:29:58] "POST /socket.io/?EIO=4&transport=polling&t=PNGV-VY&sid=7Fc69XOWiSs6LDzbAAAA HTTP/1.1" 200 -
+2025-03-25 20:29:58,255 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:29:58] "GET /socket.io/?EIO=4&transport=polling&t=PNGV-VZ&sid=7Fc69XOWiSs6LDzbAAAA HTTP/1.1" 200 -
+2025-03-25 20:30:29,066 - backend.live_preview - INFO - Starting generation 579b54ba-4982-4a40-b313-533f85fc4859 with 10 steps and 8 frames
+2025-03-25 20:30:29,068 - backend.pipeline - INFO - Generating video with seed: 2827832022
+2025-03-25 20:30:29,317 - backend.models - INFO - Loading SD model: runwayml/stable-diffusion-v1-5
+2025-03-25 20:37:14,530 - backend.config - INFO - Config initialized with base_dir: d:\animate diff x\animatediff-gui
+2025-03-25 20:37:14,530 - backend.config - INFO - Models directory: d:\animate diff x\animatediff-gui\models
+2025-03-25 20:37:14,530 - backend.config - INFO - Output directory: d:\animate diff x\animatediff-gui\outputs
+2025-03-25 20:37:14,531 - backend.config - INFO - CPU optimization: quantization=int8, threads=16
+2025-03-25 20:37:14,531 - backend.config - INFO - Uncensored mode: True
+2025-03-25 20:37:14,535 - __main__ - INFO - Initializing model manager...
+2025-03-25 20:37:14,536 - backend.models - INFO - Using device: cpu
+2025-03-25 20:37:14,538 - backend.models - INFO - Set torch threads to 16
+2025-03-25 20:37:14,538 - __main__ - INFO - Initializing preview manager...
+2025-03-25 20:37:14,540 - __main__ - INFO - Initializing AnimateDiff pipeline...
+2025-03-25 20:37:14,542 - backend.pipeline - INFO - Using device: cpu
+2025-03-25 20:37:14,552 - __main__ - INFO - Initializing preview server...
+2025-03-25 20:37:14,556 - __main__ - INFO - All components initialized successfully
+2025-03-25 20:37:14,556 - __main__ - INFO - Starting AnimateDiff GUI on 0.0.0.0:7860
+2025-03-25 20:37:14,556 - backend.live_preview_server - INFO - Starting LivePreviewServer on 0.0.0.0:7860
+2025-03-25 20:37:15,807 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7860
+ * Running on http://192.168.1.11:7860
+2025-03-25 20:37:15,807 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 20:37:22,736 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:37:22] "GET / HTTP/1.1" 200 -
+2025-03-25 20:37:22,787 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:37:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-25 20:37:22,792 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:37:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-25 20:37:22,884 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:37:22] "GET /socket.io/?EIO=4&transport=polling&t=PNGXh2x HTTP/1.1" 200 -
+2025-03-25 20:37:22,885 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:37:22] "GET /api/models HTTP/1.1" 200 -
+2025-03-25 20:37:22,890 - backend.live_preview_server - INFO - Client connected: IYjSir3wpAWApn51AAAB
+2025-03-25 20:37:22,891 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:37:22] "POST /socket.io/?EIO=4&transport=polling&t=PNGXh36&sid=Ra1PpZd0ZPNUNtkwAAAA HTTP/1.1" 200 -
+2025-03-25 20:37:22,897 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:37:22] "GET /socket.io/?EIO=4&transport=polling&t=PNGXh38&sid=Ra1PpZd0ZPNUNtkwAAAA HTTP/1.1" 200 -
+2025-03-25 20:37:50,511 - backend.live_preview - INFO - Starting generation 5a2470bf-d5ac-4f20-a8b2-c908a7e08c97 with 10 steps and 8 frames
+2025-03-25 20:37:50,513 - backend.pipeline - INFO - Generating video with seed: 372938973
+2025-03-25 20:37:50,526 - backend.models - INFO - Loading SD model: runwayml/stable-diffusion-v1-5
+2025-03-25 20:49:41,239 - backend.config - INFO - Config initialized with base_dir: d:\animate diff x\animatediff-gui
+2025-03-25 20:49:41,239 - backend.config - INFO - Models directory: d:\animate diff x\animatediff-gui\models
+2025-03-25 20:49:41,240 - backend.config - INFO - Output directory: d:\animate diff x\animatediff-gui\outputs
+2025-03-25 20:49:41,240 - backend.config - INFO - CPU optimization: quantization=int8, threads=16
+2025-03-25 20:49:41,240 - backend.config - INFO - Uncensored mode: True
+2025-03-25 20:49:41,244 - __main__ - INFO - Initializing model manager...
+2025-03-25 20:49:41,245 - backend.models - INFO - Using device: cpu
+2025-03-25 20:49:41,247 - backend.models - INFO - Set torch threads to 16
+2025-03-25 20:49:41,247 - __main__ - INFO - Initializing preview manager...
+2025-03-25 20:49:41,248 - __main__ - INFO - Initializing AnimateDiff pipeline...
+2025-03-25 20:49:41,249 - backend.pipeline - INFO - Using device: cpu
+2025-03-25 20:49:41,261 - __main__ - INFO - Initializing preview server...
+2025-03-25 20:49:41,264 - __main__ - INFO - All components initialized successfully
+2025-03-25 20:49:41,264 - __main__ - INFO - Starting AnimateDiff GUI on 0.0.0.0:7860
+2025-03-25 20:49:41,266 - backend.live_preview_server - INFO - Starting LivePreviewServer on 0.0.0.0:7860
+2025-03-25 20:49:42,515 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7860
+ * Running on http://192.168.1.11:7860
+2025-03-25 20:49:42,515 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 20:49:44,305 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:49:44] "GET /socket.io/?EIO=4&transport=polling&t=PNGaW3g HTTP/1.1" 200 -
+2025-03-25 20:49:44,311 - backend.live_preview_server - INFO - Client connected: emYLj9hGuNwTrq4AAAAB
+2025-03-25 20:49:44,312 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:49:44] "POST /socket.io/?EIO=4&transport=polling&t=PNGaW3p&sid=xsSt7ZdHsTDPvV-2AAAA HTTP/1.1" 200 -
+2025-03-25 20:49:44,317 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:49:44] "GET /socket.io/?EIO=4&transport=polling&t=PNGaW3q&sid=xsSt7ZdHsTDPvV-2AAAA HTTP/1.1" 200 -
+2025-03-25 20:50:49,460 - backend.config - INFO - Config initialized with base_dir: d:\animate diff x\animatediff-gui
+2025-03-25 20:50:49,461 - backend.config - INFO - Models directory: d:\animate diff x\animatediff-gui\models
+2025-03-25 20:50:49,461 - backend.config - INFO - Output directory: d:\animate diff x\animatediff-gui\outputs
+2025-03-25 20:50:49,461 - backend.config - INFO - CPU optimization: quantization=int8, threads=16
+2025-03-25 20:50:49,462 - backend.config - INFO - Uncensored mode: True
+2025-03-25 20:50:49,465 - __main__ - INFO - Initializing model manager...
+2025-03-25 20:50:49,466 - backend.models - INFO - Using device: cpu
+2025-03-25 20:50:49,468 - backend.models - INFO - Set torch threads to 16
+2025-03-25 20:50:49,469 - __main__ - INFO - Initializing preview manager...
+2025-03-25 20:50:49,470 - __main__ - INFO - Initializing AnimateDiff pipeline...
+2025-03-25 20:50:49,471 - backend.pipeline - INFO - Using device: cpu
+2025-03-25 20:50:49,477 - __main__ - INFO - Initializing preview server...
+2025-03-25 20:50:49,481 - __main__ - INFO - All components initialized successfully
+2025-03-25 20:50:49,481 - __main__ - INFO - Starting AnimateDiff GUI on 0.0.0.0:7860
+2025-03-25 20:50:49,482 - backend.live_preview_server - INFO - Starting LivePreviewServer on 0.0.0.0:7860
+2025-03-25 20:50:50,732 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7860
+ * Running on http://192.168.1.11:7860
+2025-03-25 20:50:50,732 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 20:50:50,806 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:50:50] "GET /socket.io/?EIO=4&transport=polling&t=PNGamAw HTTP/1.1" 200 -
+2025-03-25 20:50:50,812 - backend.live_preview_server - INFO - Client connected: R8MrlLGSXFxzD--9AAAB
+2025-03-25 20:50:50,813 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:50:50] "POST /socket.io/?EIO=4&transport=polling&t=PNGamIu&sid=Kc29_C9v6ZKNGblAAAAA HTTP/1.1" 200 -
+2025-03-25 20:50:50,818 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:50:50] "GET /socket.io/?EIO=4&transport=polling&t=PNGamIv&sid=Kc29_C9v6ZKNGblAAAAA HTTP/1.1" 200 -
+2025-03-25 20:50:52,588 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:50:52] "GET / HTTP/1.1" 200 -
+2025-03-25 20:50:52,637 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:50:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-25 20:50:52,641 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:50:52] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-03-25 20:50:52,764 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:50:52] "GET /socket.io/?EIO=4&transport=polling&t=PNGamnM HTTP/1.1" 200 -
+2025-03-25 20:50:52,767 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:50:52] "GET /api/models HTTP/1.1" 200 -
+2025-03-25 20:50:52,770 - backend.live_preview_server - INFO - Client connected: 1kijFalLCBDqtBxGAAAD
+2025-03-25 20:50:52,771 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:50:52] "POST /socket.io/?EIO=4&transport=polling&t=PNGamnU&sid=zGFTKw0aqonwGrQrAAAC HTTP/1.1" 200 -
+2025-03-25 20:50:52,777 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:50:52] "GET /socket.io/?EIO=4&transport=polling&t=PNGamnV&sid=zGFTKw0aqonwGrQrAAAC HTTP/1.1" 200 -
+2025-03-25 20:51:20,956 - backend.live_preview - INFO - Starting generation 43cf4418-861a-4e04-8d4a-543e21677254 with 10 steps and 8 frames
+2025-03-25 20:51:20,958 - backend.pipeline - INFO - Generating video with seed: 3621053666
+2025-03-25 20:51:20,971 - backend.models - INFO - Loading SD model: runwayml/stable-diffusion-v1-5
+2025-03-25 20:58:51,542 - backend.optimization - INFO - Optimizing model with int8 quantization
+2025-03-25 20:58:51,606 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-03-25 20:58:51,650 - backend.optimization - INFO - Quantizing UNet to 8-bit
+2025-03-25 20:58:51,650 - backend.optimization - ERROR - Error optimizing model: module 'bitsandbytes.nn.modules' has no attribute 'Params8bit'
+2025-03-25 20:58:51,650 - backend.optimization - WARNING - Using unoptimized model
+2025-03-25 20:58:51,664 - backend.models - INFO - Loading motion module: animatediffV3Models_motionModuleFP32.safetensors
+2025-03-25 20:58:57,179 - backend.pipeline - INFO - Safety checker disabled for uncensored mode
+2025-03-25 20:58:57,181 - backend.pipeline - INFO - Generating 8 frames with 10 steps
+2025-03-25 20:59:57,119 - backend.pipeline - INFO - Video saved to d:\animate diff x\animatediff-gui\outputs\animatediff_69390ed2.mp4
+2025-03-25 20:59:57,210 - backend.optimization - INFO - Memory optimization performed
+2025-03-25 20:59:57,211 - backend.live_preview - INFO - Generation process ended
+2025-03-25 20:59:57,234 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 20:59:57] "[35m[1mGET /outputs/animatediff_69390ed2.mp4 HTTP/1.1[0m" 206 -
+2025-03-25 21:00:14,156 - backend.live_preview_server - INFO - Client disconnected: R8MrlLGSXFxzD--9AAAB
+2025-03-25 21:00:14,156 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:00:14] "GET /socket.io/?EIO=4&transport=websocket&sid=Kc29_C9v6ZKNGblAAAAA HTTP/1.1" 200 -
+2025-03-25 21:08:01,727 - backend.config - INFO - Config initialized with base_dir: d:\animate diff x\animatediff-gui
+2025-03-25 21:08:01,728 - backend.config - INFO - Models directory: d:\animate diff x\animatediff-gui\models
+2025-03-25 21:08:01,728 - backend.config - INFO - Output directory: d:\animate diff x\animatediff-gui\outputs
+2025-03-25 21:08:01,728 - backend.config - INFO - CPU optimization: quantization=int8, threads=16
+2025-03-25 21:08:01,728 - backend.config - INFO - Uncensored mode: True
+2025-03-25 21:08:01,732 - __main__ - INFO - Initializing model manager...
+2025-03-25 21:08:01,733 - backend.models - INFO - Using device: cpu
+2025-03-25 21:08:01,735 - backend.models - INFO - Set torch threads to 16
+2025-03-25 21:08:01,736 - __main__ - INFO - Initializing preview manager...
+2025-03-25 21:08:01,736 - __main__ - INFO - Initializing AnimateDiff pipeline...
+2025-03-25 21:08:01,737 - backend.pipeline - INFO - Using device: cpu
+2025-03-25 21:08:01,737 - __main__ - INFO - Initializing preview server...
+2025-03-25 21:08:01,741 - __main__ - INFO - All components initialized successfully
+2025-03-25 21:08:01,741 - __main__ - INFO - Starting AnimateDiff GUI on 0.0.0.0:7860
+2025-03-25 21:08:01,741 - backend.live_preview_server - INFO - Starting LivePreviewServer on 0.0.0.0:7860
+2025-03-25 21:08:02,992 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7860
+ * Running on http://192.168.1.11:7860
+2025-03-25 21:08:02,992 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 21:08:03,105 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:08:03] "GET /socket.io/?EIO=4&transport=polling&t=PNGei4m HTTP/1.1" 200 -
+2025-03-25 21:08:03,112 - backend.live_preview_server - INFO - Client connected: pWy99isfJE72-CfSAAAB
+2025-03-25 21:08:03,114 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:08:03] "POST /socket.io/?EIO=4&transport=polling&t=PNGeiKa&sid=Xx1R_X-JugcEGt4sAAAA HTTP/1.1" 200 -
+2025-03-25 21:08:03,118 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:08:03] "GET /socket.io/?EIO=4&transport=polling&t=PNGeiKb&sid=Xx1R_X-JugcEGt4sAAAA HTTP/1.1" 200 -
+2025-03-25 21:08:03,126 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:08:03] "GET /socket.io/?EIO=4&transport=polling&t=PNGeiKo&sid=Xx1R_X-JugcEGt4sAAAA HTTP/1.1" 200 -
+2025-03-25 21:08:11,309 - backend.live_preview_server - INFO - Client disconnected: pWy99isfJE72-CfSAAAB
+2025-03-25 21:08:11,310 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:08:11] "GET /socket.io/?EIO=4&transport=websocket&sid=Xx1R_X-JugcEGt4sAAAA HTTP/1.1" 200 -
+2025-03-25 21:08:19,508 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:08:19] "GET / HTTP/1.1" 200 -
+2025-03-25 21:08:19,579 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:08:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-25 21:08:19,579 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:08:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-25 21:08:19,626 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:08:19] "GET /socket.io/?EIO=4&transport=polling&t=PNGemMc HTTP/1.1" 200 -
+2025-03-25 21:08:19,631 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:08:19] "GET /api/models HTTP/1.1" 200 -
+2025-03-25 21:08:19,635 - backend.live_preview_server - INFO - Client connected: rqrXG2YjZxOEiOHoAAAD
+2025-03-25 21:08:19,636 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:08:19] "POST /socket.io/?EIO=4&transport=polling&t=PNGemMk&sid=s5CEg8yiFSt7QfF8AAAC HTTP/1.1" 200 -
+2025-03-25 21:08:19,642 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:08:19] "GET /socket.io/?EIO=4&transport=polling&t=PNGemMl&sid=s5CEg8yiFSt7QfF8AAAC HTTP/1.1" 200 -
+2025-03-25 21:08:44,113 - backend.live_preview - INFO - Starting generation 83b6fe2d-58ab-4e0a-97bc-dd6f48a0add5 with 10 steps and 8 frames
+2025-03-25 21:08:44,115 - backend.pipeline - INFO - Generating video with seed: 1571809548
+2025-03-25 21:08:44,134 - backend.models - INFO - Loading SD model: runwayml/stable-diffusion-v1-5
+2025-03-25 21:08:45,311 - backend.optimization - INFO - Optimizing model with int8 quantization
+2025-03-25 21:08:45,325 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-03-25 21:08:45,368 - backend.optimization - INFO - Quantizing UNet to 8-bit
+2025-03-25 21:08:45,368 - backend.optimization - ERROR - Error optimizing model: module 'bitsandbytes.nn.modules' has no attribute 'Params8bit'
+2025-03-25 21:08:45,369 - backend.optimization - WARNING - Using unoptimized model
+2025-03-25 21:08:45,386 - backend.models - INFO - Loading motion module: animatediffV3Models_motionModuleFP32.safetensors
+2025-03-25 21:08:50,349 - backend.pipeline - INFO - Safety checker disabled for uncensored mode
+2025-03-25 21:08:50,350 - backend.pipeline - INFO - Generating 8 frames with 10 steps
+2025-03-25 21:08:58,460 - backend.pipeline - ERROR - Error generating video: LivePreviewServer._run_generation.<locals>.preview_callback() takes 3 positional arguments but 4 were given
+2025-03-25 21:08:58,460 - backend.live_preview_server - ERROR - Error in generation thread: LivePreviewServer._run_generation.<locals>.preview_callback() takes 3 positional arguments but 4 were given
+2025-03-25 21:08:58,460 - backend.live_preview - INFO - Generation process ended
+2025-03-25 21:12:01,549 - backend.config - INFO - Config initialized with base_dir: d:\animate diff x\animatediff-gui
+2025-03-25 21:12:01,549 - backend.config - INFO - Models directory: d:\animate diff x\animatediff-gui\models
+2025-03-25 21:12:01,550 - backend.config - INFO - Output directory: d:\animate diff x\animatediff-gui\outputs
+2025-03-25 21:12:01,550 - backend.config - INFO - CPU optimization: quantization=int8, threads=16
+2025-03-25 21:12:01,550 - backend.config - INFO - Uncensored mode: True
+2025-03-25 21:12:01,554 - __main__ - INFO - Initializing model manager...
+2025-03-25 21:12:01,554 - backend.models - INFO - Using device: cpu
+2025-03-25 21:12:01,556 - backend.models - INFO - Set torch threads to 16
+2025-03-25 21:12:01,556 - __main__ - INFO - Initializing preview manager...
+2025-03-25 21:12:01,556 - __main__ - INFO - Initializing AnimateDiff pipeline...
+2025-03-25 21:12:01,557 - backend.pipeline - INFO - Using device: cpu
+2025-03-25 21:12:01,557 - __main__ - INFO - Initializing preview server...
+2025-03-25 21:12:01,561 - __main__ - INFO - All components initialized successfully
+2025-03-25 21:12:01,561 - __main__ - INFO - Starting AnimateDiff GUI on 0.0.0.0:7860
+2025-03-25 21:12:01,561 - backend.live_preview_server - INFO - Starting LivePreviewServer on 0.0.0.0:7860
+2025-03-25 21:12:02,813 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7860
+ * Running on http://192.168.1.11:7860
+2025-03-25 21:12:02,813 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 21:12:03,306 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:12:03] "GET /socket.io/?EIO=4&transport=polling&t=PNGfczY HTTP/1.1" 200 -
+2025-03-25 21:12:03,312 - backend.live_preview_server - INFO - Client connected: t0M2id3LTopsFTSjAAAB
+2025-03-25 21:12:03,313 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:12:03] "POST /socket.io/?EIO=4&transport=polling&t=PNGfczh&sid=F7iJd-txHvTGD_6-AAAA HTTP/1.1" 200 -
+2025-03-25 21:12:03,320 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:12:03] "GET /socket.io/?EIO=4&transport=polling&t=PNGfczi&sid=F7iJd-txHvTGD_6-AAAA HTTP/1.1" 200 -
+2025-03-25 21:12:05,371 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:12:05] "GET / HTTP/1.1" 200 -
+2025-03-25 21:12:05,425 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:12:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-25 21:12:05,431 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:12:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-25 21:12:05,477 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:12:05] "GET /socket.io/?EIO=4&transport=polling&t=PNGfdVV HTTP/1.1" 200 -
+2025-03-25 21:12:05,479 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:12:05] "GET /api/models HTTP/1.1" 200 -
+2025-03-25 21:12:05,483 - backend.live_preview_server - INFO - Client connected: I5_2RaHnYsTBpISmAAAD
+2025-03-25 21:12:05,485 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:12:05] "POST /socket.io/?EIO=4&transport=polling&t=PNGfdVe&sid=c9VzGuTlUTyhtlDIAAAC HTTP/1.1" 200 -
+2025-03-25 21:12:05,490 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:12:05] "GET /socket.io/?EIO=4&transport=polling&t=PNGfdVf&sid=c9VzGuTlUTyhtlDIAAAC HTTP/1.1" 200 -
+2025-03-25 21:12:13,142 - backend.live_preview_server - INFO - Client disconnected: t0M2id3LTopsFTSjAAAB
+2025-03-25 21:12:13,143 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:12:13] "GET /socket.io/?EIO=4&transport=websocket&sid=F7iJd-txHvTGD_6-AAAA HTTP/1.1" 200 -
+2025-03-25 21:12:33,304 - backend.live_preview - INFO - Starting generation b0f96198-c7d4-4127-8c96-aa863b52a14d with 10 steps and 8 frames
+2025-03-25 21:12:33,306 - backend.pipeline - INFO - Generating video with seed: 2794229195
+2025-03-25 21:12:33,317 - backend.models - INFO - Loading SD model: runwayml/stable-diffusion-v1-5
+2025-03-25 21:12:34,417 - backend.optimization - INFO - Optimizing model with int8 quantization
+2025-03-25 21:12:34,431 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-03-25 21:12:34,469 - backend.optimization - INFO - Quantizing UNet to 8-bit
+2025-03-25 21:12:34,469 - backend.optimization - ERROR - Error optimizing model: module 'bitsandbytes.nn.modules' has no attribute 'Params8bit'
+2025-03-25 21:12:34,470 - backend.optimization - WARNING - Using unoptimized model
+2025-03-25 21:12:34,487 - backend.models - INFO - Loading motion module: animatediffV3Models_motionModuleFP32.safetensors
+2025-03-25 21:12:39,720 - backend.pipeline - INFO - Safety checker disabled for uncensored mode
+2025-03-25 21:12:39,721 - backend.pipeline - INFO - Generating 8 frames with 10 steps
+2025-03-25 21:13:36,933 - backend.pipeline - INFO - Video saved to d:\animate diff x\animatediff-gui\outputs\animatediff_a0371f5d.mp4
+2025-03-25 21:13:37,015 - backend.optimization - INFO - Memory optimization performed
+2025-03-25 21:13:37,016 - backend.live_preview - INFO - Generation process ended
+2025-03-25 21:13:46,287 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:13:46] "[35m[1mGET /outputs/animatediff_a0371f5d.mp4 HTTP/1.1[0m" 206 -
+2025-03-25 21:42:32,682 - backend.config - INFO - Config initialized with base_dir: d:\animate diff x\animatediff-gui
+2025-03-25 21:42:32,683 - backend.config - INFO - Models directory: d:\animate diff x\animatediff-gui\models
+2025-03-25 21:42:32,683 - backend.config - INFO - Output directory: d:\animate diff x\animatediff-gui\outputs
+2025-03-25 21:42:32,683 - backend.config - INFO - CPU optimization: quantization=int8, threads=16
+2025-03-25 21:42:32,683 - backend.config - INFO - Uncensored mode: True
+2025-03-25 21:42:32,688 - __main__ - INFO - Initializing model manager...
+2025-03-25 21:42:32,688 - backend.models - INFO - Using device: cpu
+2025-03-25 21:42:32,690 - backend.models - INFO - Set torch threads to 16
+2025-03-25 21:42:32,691 - __main__ - INFO - Initializing preview manager...
+2025-03-25 21:42:32,692 - __main__ - INFO - Initializing AnimateDiff pipeline...
+2025-03-25 21:42:32,693 - backend.pipeline - INFO - Using device: cpu
+2025-03-25 21:42:32,693 - __main__ - INFO - Initializing preview server...
+2025-03-25 21:42:32,697 - __main__ - INFO - All components initialized successfully
+2025-03-25 21:42:32,698 - __main__ - INFO - Starting AnimateDiff GUI on 0.0.0.0:7860
+2025-03-25 21:42:32,698 - backend.live_preview_server - INFO - Starting LivePreviewServer on 0.0.0.0:7860
+2025-03-25 21:42:33,949 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7860
+ * Running on http://192.168.1.11:7860
+2025-03-25 21:42:33,949 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 21:42:36,341 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:42:36] "GET / HTTP/1.1" 200 -
+2025-03-25 21:42:36,386 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:42:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-25 21:42:36,393 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:42:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-25 21:42:36,492 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:42:36] "GET /socket.io/?EIO=4&transport=polling&t=PNGmcX3 HTTP/1.1" 200 -
+2025-03-25 21:42:36,493 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:42:36] "GET /api/models HTTP/1.1" 200 -
+2025-03-25 21:42:36,499 - backend.live_preview_server - INFO - Client connected: VS0QHcWSlBs6rnExAAAB
+2025-03-25 21:42:36,500 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:42:36] "POST /socket.io/?EIO=4&transport=polling&t=PNGmcXF&sid=MuAg0uNmZx_p4FDkAAAA HTTP/1.1" 200 -
+2025-03-25 21:42:36,505 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:42:36] "GET /socket.io/?EIO=4&transport=polling&t=PNGmcXG&sid=MuAg0uNmZx_p4FDkAAAA HTTP/1.1" 200 -
+2025-03-25 21:42:39,302 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:42:39] "GET /socket.io/?EIO=4&transport=polling&t=PNGmdD2 HTTP/1.1" 200 -
+2025-03-25 21:42:39,307 - backend.live_preview_server - INFO - Client connected: s6u4xO-KDBplA_x4AAAD
+2025-03-25 21:42:39,307 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:42:39] "POST /socket.io/?EIO=4&transport=polling&t=PNGmdD8&sid=eQ6qGZhU6NhlbL5PAAAC HTTP/1.1" 200 -
+2025-03-25 21:42:39,312 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:42:39] "GET /socket.io/?EIO=4&transport=polling&t=PNGmdD9&sid=eQ6qGZhU6NhlbL5PAAAC HTTP/1.1" 200 -
+2025-03-25 21:43:06,408 - backend.live_preview - INFO - Starting generation 0dca6668-e91f-4600-8ebf-d9b91058acf3 with 10 steps and 8 frames
+2025-03-25 21:43:06,410 - backend.models - INFO - Loading motion module: animatediffV3Models_motionModuleFP32.safetensors
+2025-03-25 21:43:11,508 - backend.models - INFO - Loading SD model: runwayml/stable-diffusion-v1-5
+2025-03-25 21:43:12,660 - backend.optimization - INFO - Optimizing model with int8 quantization
+2025-03-25 21:43:12,675 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-03-25 21:43:12,710 - backend.optimization - INFO - Quantizing UNet to 8-bit
+2025-03-25 21:43:12,711 - backend.optimization - ERROR - Error optimizing model: module 'bitsandbytes.nn.modules' has no attribute 'Params8bit'
+2025-03-25 21:43:12,711 - backend.optimization - WARNING - Using unoptimized model
+2025-03-25 21:43:12,938 - backend.pipeline - INFO - Generating 8 frames with 10 steps
+2025-03-25 21:43:17,440 - backend.pipeline - ERROR - Error generating video: 'int' object has no attribute '__array_interface__'
+2025-03-25 21:43:17,440 - backend.live_preview_server - ERROR - Error in generation thread: 'int' object has no attribute '__array_interface__'
+2025-03-25 21:43:17,440 - backend.live_preview - INFO - Generation process ended
+2025-03-25 21:43:50,756 - backend.live_preview_server - INFO - Client disconnected: s6u4xO-KDBplA_x4AAAD
+2025-03-25 21:43:50,757 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:43:50] "GET /socket.io/?EIO=4&transport=websocket&sid=eQ6qGZhU6NhlbL5PAAAC HTTP/1.1" 200 -
+2025-03-25 21:47:23,270 - backend.config - INFO - Config initialized with base_dir: d:\animate diff x\animatediff-gui
+2025-03-25 21:47:23,270 - backend.config - INFO - Models directory: d:\animate diff x\animatediff-gui\models
+2025-03-25 21:47:23,271 - backend.config - INFO - Output directory: d:\animate diff x\animatediff-gui\outputs
+2025-03-25 21:47:23,271 - backend.config - INFO - CPU optimization: quantization=int8, threads=16
+2025-03-25 21:47:23,271 - backend.config - INFO - Uncensored mode: True
+2025-03-25 21:47:23,275 - __main__ - INFO - Initializing model manager...
+2025-03-25 21:47:23,276 - backend.models - INFO - Using device: cpu
+2025-03-25 21:47:23,279 - backend.models - INFO - Set torch threads to 16
+2025-03-25 21:47:23,279 - __main__ - INFO - Initializing preview manager...
+2025-03-25 21:47:23,280 - __main__ - INFO - Initializing AnimateDiff pipeline...
+2025-03-25 21:47:23,280 - backend.pipeline - INFO - Using device: cpu
+2025-03-25 21:47:23,281 - __main__ - INFO - Initializing preview server...
+2025-03-25 21:47:23,288 - __main__ - INFO - All components initialized successfully
+2025-03-25 21:47:23,291 - __main__ - INFO - Starting AnimateDiff GUI on 0.0.0.0:7860
+2025-03-25 21:47:23,291 - backend.live_preview_server - INFO - Starting LivePreviewServer on 0.0.0.0:7860
+2025-03-25 21:47:24,541 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7860
+ * Running on http://192.168.1.11:7860
+2025-03-25 21:47:24,541 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 21:47:24,554 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:47:24] "GET /socket.io/?EIO=4&transport=polling&t=PNGniYX HTTP/1.1" 200 -
+2025-03-25 21:47:24,561 - backend.live_preview_server - INFO - Client connected: 5fR-xbyapf96C_k3AAAB
+2025-03-25 21:47:24,562 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:47:24] "POST /socket.io/?EIO=4&transport=polling&t=PNGnisD&sid=3nGq6a4s2NekG9ZUAAAA HTTP/1.1" 200 -
+2025-03-25 21:47:24,568 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:47:24] "GET /socket.io/?EIO=4&transport=polling&t=PNGnisE&sid=3nGq6a4s2NekG9ZUAAAA HTTP/1.1" 200 -
+2025-03-25 21:47:49,539 - backend.config - INFO - Config initialized with base_dir: d:\animate diff x\animatediff-gui
+2025-03-25 21:47:49,539 - backend.config - INFO - Models directory: d:\animate diff x\animatediff-gui\models
+2025-03-25 21:47:49,540 - backend.config - INFO - Output directory: d:\animate diff x\animatediff-gui\outputs
+2025-03-25 21:47:49,540 - backend.config - INFO - CPU optimization: quantization=int8, threads=16
+2025-03-25 21:47:49,540 - backend.config - INFO - Uncensored mode: True
+2025-03-25 21:47:49,544 - __main__ - INFO - Initializing model manager...
+2025-03-25 21:47:49,545 - backend.models - INFO - Using device: cpu
+2025-03-25 21:47:49,546 - backend.models - INFO - Set torch threads to 16
+2025-03-25 21:47:49,547 - __main__ - INFO - Initializing preview manager...
+2025-03-25 21:47:49,548 - __main__ - INFO - Initializing AnimateDiff pipeline...
+2025-03-25 21:47:49,551 - backend.pipeline - INFO - Using device: cpu
+2025-03-25 21:47:49,551 - __main__ - INFO - Initializing preview server...
+2025-03-25 21:47:49,556 - __main__ - INFO - All components initialized successfully
+2025-03-25 21:47:49,560 - __main__ - INFO - Starting AnimateDiff GUI on 0.0.0.0:7860
+2025-03-25 21:47:49,561 - backend.live_preview_server - INFO - Starting LivePreviewServer on 0.0.0.0:7860
+2025-03-25 21:47:50,811 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7860
+ * Running on http://192.168.1.11:7860
+2025-03-25 21:47:50,811 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 21:47:50,873 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:47:50] "GET /socket.io/?EIO=4&transport=polling&t=PNGnon- HTTP/1.1" 200 -
+2025-03-25 21:47:50,879 - backend.live_preview_server - INFO - Client connected: Yl_QdzVHLgyJWeyoAAAB
+2025-03-25 21:47:50,880 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:47:50] "POST /socket.io/?EIO=4&transport=polling&t=PNGnpHR&sid=RNZKMrCTIEnIJTV_AAAA HTTP/1.1" 200 -
+2025-03-25 21:47:50,884 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:47:50] "GET /socket.io/?EIO=4&transport=polling&t=PNGnpHS&sid=RNZKMrCTIEnIJTV_AAAA HTTP/1.1" 200 -
+2025-03-25 21:47:54,175 - backend.live_preview_server - INFO - Client disconnected: Yl_QdzVHLgyJWeyoAAAB
+2025-03-25 21:47:54,175 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:47:54] "GET /socket.io/?EIO=4&transport=websocket&sid=RNZKMrCTIEnIJTV_AAAA HTTP/1.1" 200 -
+2025-03-25 21:48:00,198 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:48:00] "GET / HTTP/1.1" 200 -
+2025-03-25 21:48:00,266 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:48:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-25 21:48:00,268 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:48:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-25 21:48:00,371 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:48:00] "GET /socket.io/?EIO=4&transport=polling&t=PNGnrbj HTTP/1.1" 200 -
+2025-03-25 21:48:00,375 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:48:00] "GET /api/models HTTP/1.1" 200 -
+2025-03-25 21:48:00,407 - backend.live_preview_server - INFO - Client connected: MfJZEbSwCqeJ28RcAAAD
+2025-03-25 21:48:00,408 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:48:00] "POST /socket.io/?EIO=4&transport=polling&t=PNGnrcJ&sid=--8b989W-zEDZHS-AAAC HTTP/1.1" 200 -
+2025-03-25 21:48:00,413 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:48:00] "GET /socket.io/?EIO=4&transport=polling&t=PNGnrcK&sid=--8b989W-zEDZHS-AAAC HTTP/1.1" 200 -
+2025-03-25 21:48:16,723 - backend.live_preview - INFO - Starting generation f78faef1-c20a-4191-8670-1b15c51ea06c with 10 steps and 8 frames
+2025-03-25 21:48:16,725 - backend.models - INFO - Loading motion module: animatediffV3Models_motionModuleFP32.safetensors
+2025-03-25 21:48:22,053 - backend.models - INFO - Loading SD model: runwayml/stable-diffusion-v1-5
+2025-03-25 21:48:23,301 - backend.optimization - INFO - Optimizing model with int8 quantization
+2025-03-25 21:48:23,315 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-03-25 21:48:23,359 - backend.optimization - INFO - Quantizing UNet to 8-bit
+2025-03-25 21:48:23,359 - backend.optimization - ERROR - Error optimizing model: module 'bitsandbytes.nn.modules' has no attribute 'Params8bit'
+2025-03-25 21:48:23,360 - backend.optimization - WARNING - Using unoptimized model
+2025-03-25 21:48:23,711 - backend.pipeline - INFO - Generating 8 frames with 10 steps
+2025-03-25 21:48:28,079 - backend.pipeline - ERROR - Error generating video: 'int' object has no attribute '__array_interface__'
+2025-03-25 21:48:28,079 - backend.live_preview_server - ERROR - Error in generation thread: 'int' object has no attribute '__array_interface__'
+2025-03-25 21:48:28,080 - backend.live_preview - INFO - Generation process ended
+2025-03-25 21:48:47,324 - backend.live_preview_server - INFO - Client disconnected: MfJZEbSwCqeJ28RcAAAD
+2025-03-25 21:48:47,324 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:48:47] "GET /socket.io/?EIO=4&transport=websocket&sid=--8b989W-zEDZHS-AAAC HTTP/1.1" 200 -
+2025-03-25 21:56:33,605 - backend.config - INFO - Config initialized with base_dir: d:\animate diff x\animatediff-gui
+2025-03-25 21:56:33,606 - backend.config - INFO - Models directory: d:\animate diff x\animatediff-gui\models
+2025-03-25 21:56:33,606 - backend.config - INFO - Output directory: d:\animate diff x\animatediff-gui\outputs
+2025-03-25 21:56:33,606 - backend.config - INFO - CPU optimization: quantization=int8, threads=16
+2025-03-25 21:56:33,606 - backend.config - INFO - Uncensored mode: True
+2025-03-25 21:56:33,610 - __main__ - INFO - Initializing model manager...
+2025-03-25 21:56:33,611 - backend.models - INFO - Using device: cpu
+2025-03-25 21:56:33,612 - backend.models - INFO - Set torch threads to 16
+2025-03-25 21:56:33,613 - __main__ - INFO - Initializing preview manager...
+2025-03-25 21:56:33,613 - __main__ - INFO - Initializing AnimateDiff pipeline...
+2025-03-25 21:56:33,614 - backend.pipeline - INFO - Using device: cpu
+2025-03-25 21:56:33,614 - __main__ - INFO - Initializing preview server...
+2025-03-25 21:56:33,619 - __main__ - INFO - All components initialized successfully
+2025-03-25 21:56:33,619 - __main__ - INFO - Starting AnimateDiff GUI on 0.0.0.0:7860
+2025-03-25 21:56:33,619 - backend.live_preview_server - INFO - Starting LivePreviewServer on 0.0.0.0:7860
+2025-03-25 21:56:34,870 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7860
+ * Running on http://192.168.1.11:7860
+2025-03-25 21:56:34,870 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-25 21:56:38,340 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:56:38] "GET / HTTP/1.1" 200 -
+2025-03-25 21:56:38,387 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:56:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-25 21:56:38,395 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:56:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-25 21:56:38,516 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:56:38] "GET /socket.io/?EIO=4&transport=polling&t=PNGpq5h HTTP/1.1" 200 -
+2025-03-25 21:56:38,517 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:56:38] "GET /api/models HTTP/1.1" 200 -
+2025-03-25 21:56:38,523 - backend.live_preview_server - INFO - Client connected: YBvm5wmqjinog2APAAAB
+2025-03-25 21:56:38,525 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:56:38] "POST /socket.io/?EIO=4&transport=polling&t=PNGpq5t&sid=Tx4ILuoxcy3k6e5ZAAAA HTTP/1.1" 200 -
+2025-03-25 21:56:38,531 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:56:38] "GET /socket.io/?EIO=4&transport=polling&t=PNGpq5u&sid=Tx4ILuoxcy3k6e5ZAAAA HTTP/1.1" 200 -
+2025-03-25 21:56:38,535 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 21:56:38] "GET /socket.io/?EIO=4&transport=polling&t=PNGpq65&sid=Tx4ILuoxcy3k6e5ZAAAA HTTP/1.1" 200 -
+2025-03-25 21:57:13,656 - backend.live_preview - INFO - Starting generation 28416b0a-8069-4443-8dd4-650473ef36dc with 10 steps and 8 frames
+2025-03-25 21:57:13,658 - backend.models - INFO - Loading SD model: runwayml/stable-diffusion-v1-5
+2025-03-25 21:57:14,822 - backend.optimization - INFO - Optimizing model with int8 quantization
+2025-03-25 21:57:14,836 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-03-25 21:57:14,874 - backend.optimization - INFO - Quantizing UNet to 8-bit
+2025-03-25 21:57:14,875 - backend.optimization - ERROR - Error optimizing model: module 'bitsandbytes.nn.modules' has no attribute 'Params8bit'
+2025-03-25 21:57:14,875 - backend.optimization - WARNING - Using unoptimized model
+2025-03-25 21:57:14,894 - backend.models - INFO - Loading motion module: animatediffV3Models_motionModuleFP32.safetensors
+2025-03-25 21:57:20,001 - backend.pipeline - INFO - Safety checker disabled for uncensored mode
+2025-03-25 21:57:20,001 - backend.pipeline - INFO - Generating 8 frames with 10 steps
+2025-03-25 22:03:32,858 - backend.pipeline - INFO - Video saved to d:\animate diff x\animatediff-gui\outputs\animatediff_c6690ff1.mp4
+2025-03-25 22:03:32,859 - backend.live_preview - INFO - Generation process ended
+2025-03-25 22:03:39,748 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 22:03:39] "[35m[1mGET /outputs/animatediff_c6690ff1.mp4 HTTP/1.1[0m" 206 -
+2025-03-25 22:15:39,533 - backend.live_preview_server - INFO - Client disconnected: YBvm5wmqjinog2APAAAB
+2025-03-25 22:15:39,534 - werkzeug - INFO - 127.0.0.1 - - [25/Mar/2025 22:15:39] "GET /socket.io/?EIO=4&transport=websocket&sid=Tx4ILuoxcy3k6e5ZAAAA HTTP/1.1" 200 -
