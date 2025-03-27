@@ -20,7 +20,7 @@ An advanced AnimateDiff GUI interface with Python backend and HTML/JS frontend. 
 pip install -r requirements.txt
 ```
 
-Alternative Manual Installation If you still encounter issues, you can try installing the dependencies manually in this specific order: pip install huggingface_hub==0.16.4 pip install diffusers==0.11.1 pip install -r requirements_fixed.txt
+Alternative Manual Installation If you still encounter issues, you can try installing the dependencies manually in this specific order: pip install huggingface_hub==0.16.4 pip install diffusers==0.11.1 pip install -r requirements.txt
 
 3. Run the setup script to initialize the application:
 
